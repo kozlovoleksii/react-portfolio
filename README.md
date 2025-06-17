@@ -49,6 +49,6 @@ npm run dev
 ## 👤 Author
 
 **Oleksii Kozlov**  
-[LinkedIn](https://www.linkedin.com/in/oleksii-kozlov-745a18313/)  
-📧 Email: [kozlov.oleksii@email.com](mailto:oleksiikozlov@email.com)  
+🌐 LinkedIn: [LinkedIn](https://www.linkedin.com/in/oleksii-kozlov-745a18313/)  
+📧 Email: [oleksiikozlov@gmail.com](mailto:oleksiikozlov@gmail.com)  
 🐙 GitHub: [github.com/kozlovoleksii](https://github.com/kozlovoleksii)

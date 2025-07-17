@@ -8,6 +8,7 @@ import portfolio5 from "./portfolio-5.webp";
 import portfolio6 from "./portfolio-6.webp";
 import portfolio7 from "./portfolio-7.webp";
 import portfolio8 from "./portfolio-8.webp";
+import portfolio9 from "./portfolio-9.webp";
 
 export {
   mainImg,
@@ -20,4 +21,5 @@ export {
   portfolio6,
   portfolio7,
   portfolio8,
+  portfolio9,
 };

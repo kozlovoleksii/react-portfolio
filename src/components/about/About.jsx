@@ -31,7 +31,7 @@ const About = () => {
 
             <ul className="professional-list">
               <li className="list-item">
-                <span className="number">7+</span>
+                <span className="number">8+</span>
                 <span className="text">Personal Projects</span>
               </li>
               <li className="list-item">

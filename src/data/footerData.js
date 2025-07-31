@@ -10,7 +10,7 @@ export const footerLinks = [
 export const folowLinks = [
   {
     id: 1,
-    href: "https://www.facebook.com/alex.kozlov.3958",
+    href: "https://www.facebook.com/oleksiikozlov89",
     icon: FaFacebook,
   },
   { id: 2, href: "https://www.instagram.com/oleksii.kozlov/#", icon: FaInstagram },

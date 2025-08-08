@@ -1,0 +1,33 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+.modal {
+  background: #fff;
+  color: #111;
+  padding: 20px 24px;
+  border-radius: 12px;
+  max-width: 420px;
+  width: calc(100% - 32px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  text-align: center;
+  animation: modalIn .18s ease-out;
+}
+.modal-close {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #5b4bdb;
+  color: #fff;
+  cursor: pointer;
+}
+@keyframes modalIn {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}

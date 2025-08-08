@@ -1,0 +1,88 @@
+.support-ukraine {
+  position: fixed;
+  left: 0;
+  top: 96.7%;
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+  padding: 12px 8px;
+  z-index: 9999;
+
+  transform: rotate(-90deg);
+  transform-origin: left top;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.support-ukraine::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right, #ffdd00 50%, #0057b7 50%);
+  border-radius: 50%;
+
+  animation: heartbeat 2s ease-in-out infinite;
+}
+.support-ukraine:hover {
+  opacity: 0.8;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 221, 0, 0);
+  }
+  10% {
+    transform: scale(1.25);
+    box-shadow: 0 0 12px rgba(255, 221, 0, 0.6);
+  }
+  20% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 221, 0, 0);
+  }
+  30% {
+    transform: scale(1.25);
+    box-shadow: 0 0 12px rgba(255, 221, 0, 0.6);
+  }
+  40% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 221, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 221, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .support-ukraine {
+    left: auto;
+    top: auto;
+    bottom: 14px;
+    right: 12px;
+    transform: none;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    gap: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  }
+
+  .support-ukraine::after {
+    background: linear-gradient(#0057b7 50%, #ffdd00 50%);
+  }
+
+  .support-ukraine.m-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+  }
+  .support-ukraine.m-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition: all 0.2s ease;
+  }
+}

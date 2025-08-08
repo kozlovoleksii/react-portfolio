@@ -3,7 +3,7 @@ import { folowLinks, footerLinks } from "../../data/footerData";
 import FooterLinkGroup from "./FooterLinkGroup";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="footer">
@@ -17,11 +17,11 @@ const Footer = () => {
         <FooterLinkGroup title="More" links={footerLinks} />
 
         <div className="hr"></div>
-        <FooterLinkGroup title="Follow" links={folowLinks} socialBlock/>
+        <FooterLinkGroup title="Follow" links={folowLinks} socialBlock />
       </div>
 
       <p className="footer-copyright">
-        © <span className="year">{currentYear}</span> by Oleksii. All rights reserved.
+        © <span className="year">{currentYear}</span> by Oleksii.
       </p>
     </footer>
   );

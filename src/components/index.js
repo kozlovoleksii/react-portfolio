@@ -9,3 +9,5 @@ export {default as SkillsInfo} from "./skills/SkillsInfo"
 export {default as Navigation} from "./navigation/Navigation"
 export {default as ScrollToTop} from "./scrollToTop/ScrollToTop"
 export {default as themeToogle} from "./themeToogle/ThemeToogle"
+export {default as SupportUkraine} from "./supportUkraine/SupportUkraine"
+

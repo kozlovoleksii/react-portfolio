@@ -1,4 +1,4 @@
-import { Header, Footer, Home, About, SkillsInfo, Services, Portfolio, Contact, ScrollToTop} from "./components";
+import { Header, Footer, Home, About, SkillsInfo, Services, Portfolio, Contact, ScrollToTop, SupportUkraine} from "./components";
 import ThemeToogle from "./components/themeToogle/ThemeToogle";
 
 
@@ -17,6 +17,7 @@ function App() {
       <Footer/>
       <ScrollToTop/>
       <ThemeToogle/>
+      <SupportUkraine/>
     </>
   );
 }

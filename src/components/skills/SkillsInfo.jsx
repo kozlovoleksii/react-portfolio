@@ -1,4 +1,4 @@
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../sectionTitle/SectionTitle";
 import SoftSkills from "./SoftSkills";
 import Education from "./Education";
 import Skills from "./Skills";

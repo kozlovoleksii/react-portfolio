@@ -1,7 +1,7 @@
 import "./about.css";
 import { aboutImg } from "../../assets/images";
 import { AiFillSafetyCertificate  } from "react-icons/ai";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../sectionTitle/SectionTitle";
 
 const About = () => {
   return (

@@ -1,4 +1,4 @@
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../sectionTitle/SectionTitle";
 import "./Contact.css";
 import ContactLeft from "./ContactLeft";
 import ContactRight from "./ContactRight";

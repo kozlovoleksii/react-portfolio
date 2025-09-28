@@ -1,7 +1,7 @@
 import "./Services.css";
 import { services } from "../../data/services";
 import ServicesItem from "./ServicesItem";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../sectionTitle/SectionTitle";
 
 const Services = () => {
   return (

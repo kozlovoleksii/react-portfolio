@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import React, { useEffect, useRef, useState } from "react";
 import { portfolioData } from "../../data/portfolioData";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../sectionTitle/SectionTitle";
 import PortfolioItem from "./PortfolioItem";
 
 const Portfolio = () => {

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 

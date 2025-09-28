@@ -1,5 +1,3 @@
-import { delay, easeOut, transform } from "motion";
-
 export const moveInVariants = (
   direction = "left",
   duration = 0.5,

@@ -2,7 +2,6 @@ import "./Home.css";
 import { FaChevronCircleRight, FaChevronCircleDown } from "react-icons/fa";
 import { mainImg } from "../../assets/images";
 import { folowLinks } from "../../data/footerData";
-import { motion } from "motion/react";
 import { moveInVariants } from "../../utils/animation";
 
 const Home = () => {

@@ -1,4 +1,4 @@
-import { contactData } from "../../data/ContactData";
+import { contactData } from "../../data/contactData";
 
 const ContactLeft = () => {
   return (

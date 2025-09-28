@@ -3,6 +3,8 @@ import { FaChevronCircleRight, FaChevronCircleDown } from "react-icons/fa";
 import { mainImg } from "../../assets/images";
 import { folowLinks } from "../../data/footerData";
 import { moveInVariants } from "../../utils/animation";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (

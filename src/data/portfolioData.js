@@ -8,6 +8,9 @@ import {
   portfolio7,
   portfolio8,
   portfolio9,
+  portfolio10,
+  portfolio11,
+  portfolio12,
 } from "../assets/images";
 export const portfolioData = [
   {
@@ -73,9 +76,33 @@ export const portfolioData = [
   {
     id: 9,
     title: "Mountains Blog",
-    imgSrc: portfolio9, 
+    imgSrc: portfolio9,
     link: "https://kozlovoleksii.github.io/mountains-blog/",
     description:
       "Minimalistic blog with parallax effect, smooth animated page transitions, and responsive design.",
+  },
+  {
+    id: 10,
+    title: "Travelly",
+    imgSrc: portfolio10,
+    link: "https://kozlovoleksii.github.io/travelly/",
+    description:
+      "Responsive travel website with registration form, validation, and smooth modal animations for better UX.",
+  },
+  {
+    id: 11,
+    title: "Weather App",
+    imgSrc: portfolio11,
+    link: "https://kozlovoleksii.github.io/weather-app/",
+    description:
+      "React + TypeScript app that displays real-time weather data from Open-Meteo API with clean and modern UI.",
+  },
+  {
+    id: 12,
+    title: "Currency Converter",
+    imgSrc: portfolio12,
+    link: "https://kozlovoleksii.github.io/currency-converter/",
+    description:
+      "Lightweight currency exchange tool with live rates, instant calculations, and responsive layout.",
   },
 ];

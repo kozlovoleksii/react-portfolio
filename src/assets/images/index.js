@@ -9,6 +9,9 @@ import portfolio6 from "./portfolio-6.webp";
 import portfolio7 from "./portfolio-7.webp";
 import portfolio8 from "./portfolio-8.webp";
 import portfolio9 from "./portfolio-9.webp";
+import portfolio10 from "./portfolio-10.webp";
+import portfolio11 from "./portfolio-11.webp";
+import portfolio12 from "./portfolio-12.webp";
 
 export {
   mainImg,
@@ -22,4 +25,7 @@ export {
   portfolio7,
   portfolio8,
   portfolio9,
+  portfolio10,
+  portfolio11,
+  portfolio12,
 };

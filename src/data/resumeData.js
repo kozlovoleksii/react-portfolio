@@ -28,6 +28,7 @@ export const skills = [
   { skill: "TypeScript", level: "80%" },
   { skill: "BEM", level: "90%" },
   { skill: "React", level: "89%" },
+  { skill: "Redux", level: "85%" },
 ];
 
 export const workExperience = [
